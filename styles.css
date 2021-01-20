@@ -3,6 +3,15 @@
   margin: 0;
 }
 
+.curso{
+  color: blue;
+}
+
+.image-frame{
+  background-size: cover;
+  height: 200px;
+}
+
 footer {
   background-color: black;
 }
