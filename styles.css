@@ -3,14 +3,48 @@
   margin: 0;
 }
 
-.curso{
-  color: blue;
+.courseTitle{
+  color: rgba(15, 15, 15, 0.952);
+  text-shadow: 2px 2px rgb(187, 187, 187);
 }
+
+.description{
+  background-color: black;
+  color: magenta;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.oculta{
+  display: none;
+}
+
+
 
 .image-frame{
   background-size: cover;
-  height: 200px;
+  height: 300px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  opacity: 0.75;
 }
+
+.image-frame:hover{
+  opacity: 1;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 60px 120px;
+}
+
 
 footer {
   background-color: black;

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="data.js" defer></script>
     <script src="script.js" defer></script>
+    <script src="submission.js" defer></script>
   </head>
   <body>
 
@@ -24,10 +25,16 @@
       <!-- aqui vai as informações do curso pelo js -->
     </section>
 
+    <article class="oculta">
+      <div class="modal"></div>
+    </article>
+
+    <a href="www.google.com.br" target="_blank">Clique aqui</a>
+
     <footer>
       <h2>CONTATO</h2>
       <div class="content">
-        <div class="inputs contato">
+        <form class="inputs contato">
           <p class="icones-text">
             Preencha o formulário para mais informações:
           </p>
@@ -35,8 +42,8 @@
           <input placeholder="Email" type="email" name="email" />
           <input placeholder="Empresa" type="text" name="company" />
           <input placeholder="Telefone" type="text" name="telephone" />
-          <button>ENVIAR</button>
-        </div>
+          <button class="btn-submit">ENVIAR</button>
+        </form>
         <div class="icones-img">
           <img src="images/insta.svg" alt="" />
           <img src="images/facebook.svg" alt="" />
