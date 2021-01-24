@@ -21,7 +21,6 @@
 }
 
 
-
 .image-frame{
   background-size: cover;
   height: 300px;
@@ -88,6 +87,10 @@ button {
   font-size: 1.2rem;
   padding: 10px 0;
   width: 100%;
+}
+
+form input[type=text], [type=email]:focus{
+  outline: none;
 }
 
 button:hover {

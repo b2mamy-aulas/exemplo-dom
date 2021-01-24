@@ -1,6 +1,11 @@
 const form = document.querySelector("form");
 const inputs = document.querySelectorAll("form input");
 const submit = document.querySelector(".btn-submit");
+const email = document.querySelector("#email");
+
+email.addEventListener('focus', () => {
+  email.style.borderColor = "magenta";
+})
 
 submit.addEventListener('click', (e) => {
   e.preventDefault();
@@ -9,6 +14,7 @@ submit.addEventListener('click', (e) => {
     const input = inputs[i];
     const dados = input.value;
     console.log(dados);
+
   }
   console.log('funcionou');
 })
